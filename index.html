@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js"></script>
     <title>Portfólio Mayara Carvalho</title>
 </head>
 <body>
@@ -18,11 +18,9 @@
     </header>
     <main>
         <section id="apresentacao" class="apresentacao">
-            <div class="container">
-                <h1 class="apresentacao__conteudo__titulo titulo-destaque">Olá, eu me chamo Mayara Carvalho!</h1>
-                <br>
-                <p class="container_texto">Sou desenvolvedora back-end e analista de dados. Atualmente, estou me especializando em <strong>Java e SQL</strong>, mas estou sempre disposta a adquirir mais conhecimentos. 
-                Mesmo tendo conhecimentos sólidos em back-end, gosto de me aventurar na área de front-end para expandir minhas habilidades de <strong>HTML, CSS, junto com JavaScript, React e Next.JS</strong></p>
+            <div class="container-links">
+                <h1 class="titulo-destaque">OLÁ, EU SOU A <strong>MAMAY!</strong></h1>
+                <h2 class="container_texto">Desenvolvedora Back-end e Analista de Dados.</h2>
                 <br>
                 <div class="apresentacao__links">
                     <a href="https://github.com/MamayCarvalho" target="_blank" class="apresentacao__links__link links_apresentacao">GitHub</a>
@@ -30,26 +28,38 @@
                     <a href="https://www.instagram.com/maycarvalhoo__" target="_blank" class="apresentacao__links__link links_apresentacao">Instagram</a> 
                 </div>
             </div>
-            <div class="apresentacao__imagem">
-                <img src="/mayara.png" alt="Foto da desenvolvedora Mayara Carvalho">
+            <div class="imagem_apresentacao">
+                <img src="imagens/mayara.png" alt="Foto da desenvolvedora Mayara Carvalho">
             </div>
         </section>
         <section id="sobreMim" class="apresentacao">
-            <div class="container">
-                <h1 class="apresentacao__conteudo__titulo titulo-destaque">Sobre Mim</h1>
-                <br>
-                <p class="container_texto">Leonina e Nordestina, como podem ver a palavra "Determinação" é meu sobrenome e faço o máximo para que o impossível se torne possível com muita garra e ao mesmo tempo cautela!</p>
-                <p class="container_texto">Alagoana, possuo 27 anos, sou apaixonada por Java e descobri uma queda por banco de dados. Atualmente estou me formando em Técnico de TI para Internet durante o horário noturno no Senai/AL e fazendo a formação do Progama One (Oracle Next Education) em parceiria com a Alura de forma online.</p>
-                <br>
-                <p class="container_texto">Abaixo apresento-lhes os níveis de minhas habilidades tecnologicas.</p>
-            </div>
-            <div class="apresentacao__imagem">
-                <!-- Adicione a imagem correspondente, se houver -->
+            <div class="container-sobre">
+                <h1 class="apresentacao__conteudo__titulo">Sobre Mim</h1>
+                <p class="container_texto">Me chamo Mayara Carvalho, sou uma Alagoana determinada que possui 27 anos e tem um amor louco por Java! O mundo de TI sempre me fascinou e quando tive meu primeiro contato com a área me apaixonei perdidamente pelo Back-End.</p>
+                <p class="container_texto">Atualmente estou me formando em Técnico de TI para Internet durante o horário noturno no Senai/AL e fazendo a formação do Progama One (Oracle Next Education) em parceiria com a Alura de forma online. Mesmo me especializando em <strong>Java</strong> e <strong>SQL</strong>, gosto de me aventurar na área de front-end para expandir minhas habilidades de <strong>HTML, CSS</strong> junto com <strong>JavaScript, React</strong> e <strong>Next.JS</strong></p>
             </div>
         </section>
         <section id="projetos" class="apresentacao">
-            <div class="container">
-                <h2 class="apresentacao__conteudo__titulo titulo-destaque">Projetos</h2>
+            
+            <div class="container-projetos">
+                <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
+                <div class="imagem_projeto_stark_team">
+                <div class="box-projetos">
+                    <h2>Site Stark Team</h2>
+                    <a href="https://teamstark23.github.io/TeamStark/index.html" target="_blank">    
+                        <img src="/imagens/teamstark.png" alt="Imagem do site Team Stark">
+                    </a>
+                    <p>Este Website foi desenvolvido para que apresentar o Projeto Integrador da equipe Team Stark, constituida por mim, Marcos Henrique e Bruno. Para conhecer
+                        um pouco mais sobre nosso trabalho, basta apenas clicar na imagem e você será redirecionado para nosso Website. </p>
+                </div>
+                <div class="box-projetos">
+                    <h2>Protótipo StarkPark</h2>                   
+                    <a href="https://teamstark23.github.io/TeamStarkProject/index.html" target="_blank">
+                        <img src="/imagens/starkpark.png" alt="Imagem do Protótipo Stark Park">
+                    </a>
+                    <p>Protótipo desenvolvido pelo Team Stark com intuito de demonstrar nossa solução para o Projeto Integrador.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

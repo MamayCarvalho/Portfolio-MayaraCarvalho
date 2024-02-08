@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: #252425;
+    padding: 25px;
+}
+
+.header-container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container ul li {
+    margin-left: 20px;
+}
+
+.ul_links {
+    font-size: 18px;
+    text-decoration: none;
+    color: #F6F6F6;
+}
+
+body {
+    height: 100vh;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+   background-image: url('/imagens/fundo.jpg');
+   /* background-color: #252425; */
+}
+
+
+.titulo-destaque {
+    color:#252425;
+    font-size: 70px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.apresentacao {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.container-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+} 
+.imagem_apresentacao img{
+    border-radius: 15px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.container_texto {
+    font-size: 25px;
+    gap: 5px;
+}
+
+.apresentacao__links {
+    display: flex;
+    gap: 40px;
+}
+
+.apresentacao__links__link {
+    margin-bottom: 20px;
+    background-color:gold;
+    width: 200px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #000000;
+}   
+
+strong {
+    color: gold;
+}
+
+.container-sobre{
+    display: flex;
+    text-align: justify;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 100%;
+    letter-spacing: 2px;
+}
+
+.container-projetos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imagem_projeto_stark_team{
+    position: relative;
+    flex: 1 1 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 20px;
+   flex-wrap: wrap;
+}
+.imagem_projeto_stark_team a{
+    text-decoration: none;
+}
+
+.imagem_projeto_stark_team img{
+    max-width: 550px;
+}
+.box-projetos{
+    width: 50%;
+    flex: 1 0 300px;
+}
+.footer-container {
+    background-color: #252425;
+    padding: 20px;
+    text-align: center;
+}
